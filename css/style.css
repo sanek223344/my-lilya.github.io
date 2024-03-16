@@ -1,0 +1,93 @@
+
+
+#knpgh_a {
+	display: block;
+	width: 60%;
+	height: 30px;
+	margin-left: 8%;
+	font-size: 50px;
+	z-index: 9;
+}
+
+#knpgh_a2 {
+	display: none;
+	width: 60%;
+	height: 30px;
+	margin-left: 8%;
+	font-size: 50px;
+	margin-top: -30px;
+}
+
+.knpgh_a {
+	color: black;
+	text-decoration: none;
+	position: absolute;
+	top: 10%;
+	left: 39%;
+	z-index: 10;
+	text-align: center;
+}
+
+#knpgh_a:hover + #knpgh_a2{
+	display: block;
+	
+}
+
+#knpgh_a:hover {
+	color: rgba(0,0,0,0.0);
+}
+
+.slider {
+	width: 445px;
+	height: 590px;
+	position: relative;
+	z-index: 10;
+	pointer-events: none;
+	user-select: none;
+	margin: 220	px auto;
+	left: 800px;
+	top: 220px;
+	overflow: hidden;
+	border: solid 1px;
+	border-color: white;
+}
+
+
+.slider-line {
+	width: 1335px;
+	font-size: 0px;
+	position: relative;
+}
+
+.knopka {
+	position: absolute;
+	z-index: 10;
+	top: 26%;
+	width: 20%;
+	left: 412px;
+}
+
+.knopka0 {
+	font-size: 25px;
+	text-align: center;
+}
+
+.knopka0:hover {
+	background: black;
+	color: white;
+}
+.knopka1 {
+	position: absolute;
+	z-index: 10;
+	top: 26%;
+	width: 20%;
+	left: 1250px;
+}
+.knopka2 {
+	font-size: 25px;
+	text-align: center;
+}
+.knopka2:hover {
+	background: black;
+	color: white;
+}
